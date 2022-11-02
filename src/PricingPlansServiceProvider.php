@@ -32,7 +32,7 @@ class PricingPlansServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->publishes([
-            $pkg . '/lang' => resource_path('lang/plans'),
+            $pkg . '/lang' => database_path('lang/plans'),
         ]);
     }
 
