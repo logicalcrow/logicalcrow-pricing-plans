@@ -83,7 +83,7 @@ Next, if using Logicalcrow 9.0+, you done. If using Logicalcrow 9.0, you must in
     'providers' => [
         // Other service providers...
 
-        Logiclacrow\PricingPlans\PricingPlansServiceProvider::class,
+        Logicalcrow\PricingPlans\PricingPlansServiceProvider::class,
     ],
 ```
 
