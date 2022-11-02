@@ -1,10 +1,11 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Support\Facades\Config;
 
-class CreatePlansTables extends Migration
+return new class extends Migration
 {
     /**
      * Run the migrations.
@@ -99,4 +100,4 @@ class CreatePlansTables extends Migration
         Schema::dropIfExists($tables['plans']);
         Schema::dropIfExists($tables['features']);
     }
-}
+};

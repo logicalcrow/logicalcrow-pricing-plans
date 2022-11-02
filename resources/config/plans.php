@@ -44,11 +44,11 @@ return [
     |
     */
     'models' => [
-        'Feature'               => 'Laravel\\PricingPlans\\Models\\Feature',
-        'Plan'                  => 'Laravel\\PricingPlans\\Models\\Plan',
-        'PlanFeature'           => 'Laravel\\PricingPlans\\Models\\PlanFeature',
-        'PlanSubscription'      => 'Laravel\\PricingPlans\\Models\\PlanSubscription',
-        'PlanSubscriptionUsage' => 'Laravel\\PricingPlans\\Models\\PlanSubscriptionUsage',
+        'Feature'               => 'Logicalcrow\\PricingPlans\\Models\\Feature',
+        'Plan'                  => 'Logicalcrow\\PricingPlans\\Models\\Plan',
+        'PlanFeature'           => 'Logicalcrow\\PricingPlans\\Models\\PlanFeature',
+        'PlanSubscription'      => 'Logicalcrow\\PricingPlans\\Models\\PlanSubscription',
+        'PlanSubscriptionUsage' => 'Logicalcrow\\PricingPlans\\Models\\PlanSubscriptionUsage',
     ],
 
 ];
