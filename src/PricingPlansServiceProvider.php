@@ -20,7 +20,7 @@ class PricingPlansServiceProvider extends ServiceProvider
     {
         $pkg = __DIR__ . '/../resources';
 
-        $this->loadTranslationsFrom($pkg.'/lang', 'plans');
+        $this->loadTranslationsFrom(base_path('lang'), 'plans');
 
         $this->publishes([
             $pkg . '/migrations/2018_01_01_000000_create_plans_tables.php'
@@ -32,7 +32,7 @@ class PricingPlansServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->publishes([
-            $pkg . '/lang' => database_path('lang/plans'),
+            $pkg . '/lang' => base_path('lang/plans'),
         ]);
     }
 
