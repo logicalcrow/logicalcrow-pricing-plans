@@ -1,0 +1,40 @@
+{
+    "name": "logicalcrow/pricing-plans",
+    "description": "dynamic menu library",
+    "keywords": [
+        "logicalcrow",
+        "laravel",
+        "plans",
+	    "subscriptions",
+    	"pricing"
+    ],
+    "homepage": "https://github.com/logicalcrow/logicalcrow-pricing-plans.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giovanni Cespedes Alcocer",
+            "email": "info@logicalcrow.com",
+            "homepage": "https://www.logicalcrow.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/auth": "^9.0",
+        "illuminate/database": "^9.0",
+        "illuminate/support": "^9.0",
+	    "nesbot/carbon": "^2.62"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logicalcrow\\PricingPlans\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Logicalcrow\\PricingPlans\\PricingPlansServiceProvider"
+            ]
+        }
+    }
+}
